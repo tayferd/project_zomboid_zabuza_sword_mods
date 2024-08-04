@@ -1,0 +1,3 @@
+name=Zabuza Sword Mod
+id=zabuza_sword_mod
+description=Adds Zabuza's sword to Project Zomboid.

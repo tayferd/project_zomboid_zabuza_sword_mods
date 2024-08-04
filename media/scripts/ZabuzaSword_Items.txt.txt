@@ -1,0 +1,47 @@
+module YourModName
+{
+    imports
+    {
+        Base
+    }
+
+    item ZabuzaSword
+    {
+        Type = Weapon,
+        DisplayName = Zabuza Sword,
+        Icon = ZabuzaSwordIcon,
+        Weight = 5,
+        WeaponSprite = Axe,
+        MinAngle = 0.5,
+        MaxAngle = 1.5,
+        MinimumSwingTime = 3,
+        SwingTime = 3.5,
+        KnockBackOnNoDeath = TRUE,
+        SwingAmountBeforeImpact = 0.02,
+        Categories = Blade,
+        ConditionLowerChanceOneIn = 20,
+        ConditionMax = 10,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        DoorDamage = 20,
+        CriticalChance = 30,
+        CritDmgMultiplier = 3,
+        KnockdownMod = 3,
+        SplatNumber = 3,
+        PushBackMod = 0.5,
+        SubCategory = LongBlade,
+        AttachmentType = BigWeapon,
+        Tags = Sharp,
+        MinDamage = 2.5,
+        MaxDamage = 3.5,
+        BaseSpeed = 0.9,
+        SwingAnim = Bat,
+        IdleAnim = BatIdle,
+        BreakSound = BreakMetalItem,
+        ImpactSound = AxeHit,
+        DoorHitSound = AxeHit,
+        HitSound = AxeHit,
+        WeaponLength = 1.5,
+        ImpactSoundRadius = 15,
+    }
+}
